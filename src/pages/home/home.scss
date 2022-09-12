@@ -1,0 +1,31 @@
+.home {
+    display: flex;
+    //background: linear-gradient(135deg, #e1b382e7,#c89566e1), url('https://images.wallpaperscraft.com/image/single/desert_dunes_camel_153356_1280x1024.jpg') no-repeat center center / cover;
+
+    .homeContainer {
+        flex: 6;
+
+        .widgets, .charts {
+            display: flex;
+            padding: 20px;
+            gap:20px;
+        }
+
+        .charts {
+            padding: 5px 20px;
+        }
+
+        .listContainer {
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px #9e7146;
+            padding: 20px;
+            margin: 20px;
+
+            .listTitle {
+                font-weight: 500;
+                color: #2d545e9c;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}

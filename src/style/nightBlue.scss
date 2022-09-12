@@ -1,0 +1,167 @@
+.app {
+    background: linear-gradient(135deg, #e1b382e7,#c89566e1), url('https://images.wallpaperscraft.com/image/single/desert_dunes_camel_153356_1280x1024.jpg') no-repeat center center / cover;
+}
+.app.night {
+    background: linear-gradient(135deg, #2d545e00,#12343b00), url('https://wallpapercave.com/wp/VCf1lhA.jpg') no-repeat center center / cover;
+    color: #e1b382;
+
+    .sidebar {
+        background-color: #2d545e;
+        border-right: 0.5px solid #12343b;
+
+        .logo {
+            color: #e1b382;
+        }
+        hr {
+            height: 0;
+            border: 0.5px solid #12343b;
+        }
+
+        .center {
+            span {
+                color: #e1b382;
+            }
+            .icon {
+                color: #cfa476;
+            }
+            li {
+                &:hover{
+                    background-color: #12343b;
+                }
+            }
+        }
+    }
+
+    .navbar {
+        color: #cfa476;
+        background-color: #2d545e;
+        border-bottom: 1px solid #12343b;
+        .search {
+            color: #e1b382;
+        }
+    }
+
+    .table {
+        background-color: #2d545e;
+
+        .tabless {
+            background-color: #2d545e;
+        }
+
+        .tableCell {
+            color: #70adbd;
+        }
+    }
+    .chartGrid {
+        stroke: #3c8496;
+      }
+      .title {
+        color: #cfa476;
+      }
+
+      .widget { 
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.603);
+        box-shadow: 2px 4px 10px 1px #2d545e;
+      }
+
+      .progress {
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.603);
+        box-shadow: 2px 4px 10px 1px #2d545e;
+
+        .desc {
+            color: #e1b382;
+        }
+        .summary {
+            .item {
+        .itemTitle {
+            color: #e1b382;
+        }
+    }
+    }
+      }
+
+      .chart {
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.603);
+        box-shadow: 2px 4px 10px 1px #2d545e;
+      }
+
+      .listContainer {
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.603);
+        box-shadow: 2px 4px 10px 1px #2d545e;
+
+        .listTitle {
+            color: #e1b382;
+        }
+      }
+     
+      .datatables{
+        .datatableTitle{
+            color:#e1b382;
+        }
+
+        .link{
+            color: #70adbd;
+            border: 1px solid #70adbd;
+        }
+
+        .viewButton {
+            color: #e1b382;
+            border: 1px dotted #ddb891;
+          }
+
+          .cellWithImg {
+            color: #70adbd;
+          }
+      }
+
+      .dataGrid {
+        color: #70adbd;
+      }
+
+      .single {
+        .left {
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.603);
+            box-shadow: 2px 4px 10px 1px #2d545e;
+
+            .editButton {
+                color: #70adbd;
+                background-color: transparent;
+                border: 1px solid #70adbd;
+            }
+            .item {
+                .details {
+                    .itemTitle {
+                        color: #e1b3828f;
+                    }
+                }
+            }
+            }
+            .bottom {
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.603);
+                box-shadow: 2px 4px 10px 1px #2d545e; 
+            }
+      }
+
+      .new {
+        .newContainer {
+            .top, .bottom {
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.603);
+                box-shadow: 2px 4px 10px 1px #2d545e; 
+                h1 {
+                    color: #e1b382;
+                }
+                button {
+                    background-color: #aa8154;
+                    color: white;
+    
+                    &:hover {
+                        background-color: transparent;
+                        color: #aa8154;
+                        border: 1px solid #aa8154;
+                    }
+                  }
+            }
+      
+        }
+      }
+}
